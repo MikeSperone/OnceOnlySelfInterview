@@ -1,0 +1,59 @@
+#interviewForm {
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+/* Line Grouping */
+.formLine {
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 10px;
+    padding: 5px;
+}
+/* Section Grouping */
+.formSection {
+    display: block;
+    position: relative;
+    float: left;
+    width:45%;
+    max-width: 343px;
+    min-width: 209px;
+    margin: 5px;
+    padding:5px;
+}
+.spacer{
+    clear:both;
+}
+
+.btn {
+    width: 200px;
+}
+
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+#nameInput {
+    width: 100%;
+}
+#bioInput {
+    width: 100%;
+    margin:5px;
+    padding:5px;
+}
+
+#year {
+    width:50px;
+}
+
+
+#ziggeoVideo {
+    position:relative; margin-left:auto; margin-right:auto;
+
+}
