@@ -59,14 +59,14 @@ while (isset($_POST["pub_Link$k"])) {
     $Pub_subArray[0] = htmlspecialchars($_POST["pub_Link$k"]);
     $Pub_subArray[1] = htmlspecialchars($_POST["pub_LinkText$k"]);
     $Pub_subArray[2] = htmlspecialchars($_POST["pub_year$k"]);
-
+    $Pub_subArray[3] = htmlspecialchars($_POST["publisher$k"]);
     $Pub_Array[$k] = $Pub_subArray;
     $k++;
 }
 function getPubLinks($p_Arr) {
     $returnValue = "";
     foreach ($p_Arr as $subArr) {
-        $returnValue .= "<a class='contentLink' href='$subArr[0]' target='_blank'>$subArr[1]</a>, $subArr[2]<br/>";
+        $returnValue .= "<a class='contentLink' href='$subArr[0]' target='_blank'>$subArr[1]</a>, published by: $subArr[3], $subArr[2]<br/>";
     }
     return $returnValue;
 }

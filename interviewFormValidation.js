@@ -34,7 +34,8 @@ function addLecture(x)
 function addPublication(x) {
     var pubObject = "<div class='formLine'>" +
         "<div class='formSection'>Link " + x + ":<br/><input type='url' name='pub_Link" + x + "' placeholder='http://website.com/webpage/article.html'> </div>" +
-        "<div class='formSection'>Link Text " + x + ":<br/><input type='text' name='pub_LinkText" + x + "' placeholder='Title of Talk'> </div>" +
+        "<div class='formSection'>Link Text " + x + ":<br/><input type='text' name='pub_LinkText" + x + "' placeholder='Title of Publication'> </div>" +
+        "<div class='formSection'>Publisher " + x + ":<br/><input type='text' name='publisher" + x + "' placeholder='publisher'> </div>" +
         "<div class='formSection'>Year:<br/> <input id='year' type='number' name='pub_year" + x + "' placeholder='2011' size='4' min='1900'><!--  + to input more  --> </div>" +
         "<div class='spacer'></div></div><br/>";
     var newPublicationLink = document.createElement('div');
