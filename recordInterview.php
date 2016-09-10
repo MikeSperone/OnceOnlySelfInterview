@@ -29,7 +29,7 @@ $name = $_GET['name'];
         <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" href="//assets-cdn.ziggeo.com/css/ziggeo-v1.css" />
         <script src="//assets-cdn.ziggeo.com/js/ziggeo-v1.js"></script>
-        <script>ZiggeoApi.token = "aa822fa2614333c2c6981dd788ff5908";</script>
+        <script>ZiggeoApi.token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";</script>
         <script>ZiggeoApi.Config.webrtc = true;</script>
 
         <script>
