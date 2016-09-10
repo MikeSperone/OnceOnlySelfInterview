@@ -6,7 +6,7 @@ require_once('../../php/ziggeo/Ziggeo.php');
 $token_or_key = htmlspecialchars($_POST['token']);
 $fullname = htmlspecialchars($_POST['name']);
 
-$ziggeo = new Ziggeo('aa822fa2614333c2c6981dd788ff5908', '314275bc45ec5f80cc1c24534fc50af7', '30d3611ae9852968a0297d9698a57898');
+$ziggeo = new Ziggeo('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
 
 try {
     // move video to onceonly.org/videos/
